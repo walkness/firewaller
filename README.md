@@ -1,3 +1,3 @@
-# react-base
+# Firewaller
 
-This is just my starter template for React projects, with "isomorphic" support, and ability to be integrated with Django.
+This is an application to assist in creating firewall rulesets on Vyatta routers.

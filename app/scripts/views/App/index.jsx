@@ -6,6 +6,8 @@ import { intlShape } from 'react-intl';
 
 import Home from 'AppViews/Home';
 
+import { siteName } from 'config';
+
 
 const App = (props, context) => (
   <div id='app'>
@@ -13,7 +15,7 @@ const App = (props, context) => (
     <Helmet
       title=''
       defaultTitle=''
-      titleTemplate='%s | React Base'
+      titleTemplate={`%s | ${siteName}`}
       htmlAttributes={{
         lang: context.intl.locale,
       }}
