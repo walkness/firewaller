@@ -1,0 +1,3 @@
+[submodule "app/scripts/modules/react-modal"]
+	path = app/scripts/modules/react-modal
+	url = git@github.com:walkness/react-modal.git

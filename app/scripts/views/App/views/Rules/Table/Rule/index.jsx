@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { FormattedMessage } from 'react-intl';
 
 import { rules } from 'messages';
+
+import FormattedMessageUCFirst from 'AppComponents/FormattedMessageUCFirst';
 
 
 const Rule = ({ rule }) => (
@@ -13,7 +14,7 @@ const Rule = ({ rule }) => (
     <td>{ rule.description }</td>
 
     <td>
-      <FormattedMessage
+      <FormattedMessageUCFirst
         {...rules.actions}
         values={{ action: rule.action }}
       />

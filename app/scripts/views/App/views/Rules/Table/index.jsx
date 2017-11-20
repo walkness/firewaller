@@ -26,6 +26,7 @@ const Table = ({ rules }) => {
         <tr>
           <th><FormattedMessageUCFirst {...messages.number} /></th>
           <th><FormattedMessageUCFirst {...messages.description} /></th>
+          <th><FormattedMessageUCFirst {...messages.action} /></th>
         </tr>
       </thead>
 

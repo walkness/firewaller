@@ -22,4 +22,8 @@ export const rules = defineMessages({
     id: 'rules.description',
     defaultMessage: 'description',
   },
+  action: {
+    id: 'rules.action',
+    defaultMessage: 'action',
+  },
 });

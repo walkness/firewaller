@@ -1,0 +1,18 @@
+[
+  {
+    "id": "rules.actions",
+    "defaultMessage": "{action, select, ACCEPT {accept} DROP {drop} REJECT {reject} REJECT_TCP {reject TCP} other {{action}}}"
+  },
+  {
+    "id": "rules.number",
+    "defaultMessage": "number"
+  },
+  {
+    "id": "rules.description",
+    "defaultMessage": "description"
+  },
+  {
+    "id": "rules.action",
+    "defaultMessage": "action"
+  }
+]
