@@ -18,7 +18,12 @@ const logPageView = () => {
 const Root = ({ store, server, renderProps }) => (
   <Provider store={store}>
 
-    <IntlProvider locale='en'>
+    <IntlProvider
+      locale='en'
+      messages={{
+        'rule.action': '',
+      }}
+    >
 
       { server ?
         <StaticRouter {...renderProps}>

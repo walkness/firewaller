@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux';
 
-import reducer from './Reducer';
+import rules from './RulesReducer';
+import rulesets from './RulesetsReducer';
 
 export default combineReducers({
-  reducer,
+  rules,
+  rulesets,
 });

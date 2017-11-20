@@ -8,6 +8,9 @@
   	"transform-class-properties",
   	"transform-decorators-legacy",
   	["transform-runtime", {"polyfill": false}],
-    "react-hot-loader/babel"
+    "react-hot-loader/babel",
+    ["react-intl", {
+        "messagesDir": "./messages/"
+    }]
   ],
 }

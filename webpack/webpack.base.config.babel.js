@@ -123,6 +123,8 @@ export default {
       sagas: path.resolve(__dirname, '../app/scripts/sagas'),
       services: path.resolve(__dirname, '../app/scripts/services'),
       views: path.resolve(__dirname, '../app/scripts/views'),
+      messages: path.resolve(__dirname, '../app/scripts/messages'),
+      utils: path.resolve(__dirname, '../app/scripts/utils'),
     },
   },
 };

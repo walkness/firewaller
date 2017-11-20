@@ -5,6 +5,7 @@ import Helmet from 'react-helmet';
 import { intlShape } from 'react-intl';
 
 import Home from 'AppViews/Home';
+import Rules from 'AppViews/Rules';
 
 import { siteName } from 'config';
 
@@ -28,6 +29,7 @@ const App = (props, context) => (
     />
 
     <Route exact path='/' component={Home} />
+    <Route path='/rules' component={Rules} />
 
   </div>
 );
