@@ -8,6 +8,5 @@ node_modules/
 .sass-cache/
 dist/
 bundles/
-messages/
 webpack-stats.json
 webpack-stats-prod.json

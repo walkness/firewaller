@@ -10,7 +10,7 @@
   	["transform-runtime", {"polyfill": false}],
     "react-hot-loader/babel",
     ["react-intl", {
-        "messagesDir": "./messages/"
+        "messagesDir": "./app/messages/"
     }]
   ],
 }
